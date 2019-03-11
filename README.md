@@ -1,5 +1,6 @@
 # 3D Particle system.
 
+3D adaptation of https://github.com/irvang/particles 
 ## Using openFrameworks v. 0.10.1. 
 
 ### Example of the program as binary file (application):
