@@ -5,7 +5,7 @@
 
 ### Example of the program as binary file (application):
 
-  -[Mac only (file size: 66MB).](http://irvingangulo.com/assets/particles-3d-bin-f/particles-3d-bin-f/particles-3D-031119.zip)
+  -[Mac only (file size: 4.7MB).](http://irvingangulo.com/assets/particles-3d-bin-f/particles-3d-bin-f/particles-3D-031119.zip)
 
 To run the examples: extract file and double click on each example.
 
