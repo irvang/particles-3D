@@ -73,8 +73,9 @@ void Attractor::update() {
 }
 
 //  -----------------------------------
+//====This function hides or displays the attractor
 void Attractor::displayIt() {
-//    ofDrawEllipse(<#float x#>, <#float y#>, <#float z#>, <#float width#>, <#float height#>)
+//    ofDrawEllipse(float x, float y, float z, float width, float height)
     ofSetColor(255, 0, 100, 30);
     ofSetColor(color);
     ofDrawSphere(pos.x, pos.y, pos.z, mass * Attractor::scalM);
@@ -83,7 +84,7 @@ void Attractor::displayIt() {
 //  -----------------------------------
 void Attractor::edges(const float &width, const float &height) {
     
-    float edges = 300;
+    float edges = 400;
     
     if ((pos.y + mass) > edges) {
         vel.y *= -1;

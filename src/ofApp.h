@@ -26,7 +26,7 @@ public:
     
     void windowResized(int w, int h);
 
-    MyG myg;
+    MyG myg; //my global, line 8    
     
     ofEasyCam cam;
 };

@@ -18,7 +18,7 @@ void ofApp::setup(){
     
     create();
     
-    cam.setDistance(400);
+    cam.setDistance(600); //only affecting box for now.
 }
 
 //--------------------------------------------------------------
@@ -50,8 +50,9 @@ void ofApp::draw(){
     
     ofSetColor(255, 255, 255, 20);
     
+    //Sorta enclosing box, need to fix.
 //    ofNoFill();
-    ofDrawBox(0, 0, 0, 400, 400, 400);
+//    ofDrawBox(0, 0, 0, 400, 400, 400);
 //    ofDrawSphere(0, 0, 0, 300);
     cam.end();
 }
@@ -77,7 +78,7 @@ void ofApp::updateAll () {
 void ofApp::displayAll () {
     
     for (int i = 0; i< Attractor::nbAtrctr; ++i) {
-        Attractor::arr[i].displayIt();
+//        Attractor::arr[i].displayIt(); //hides or displays attractor
         
         for(int j = 0; j < Particle::nbPtcls; ++j) {
             Particle::arr[i][j].display();
@@ -95,7 +96,9 @@ void ofApp::create () {
         //Attractor::Attractor (float x, float y, float mass, ofColor color):
 //        Attractor::arr.push_back(Attractor(100 * i, 100 * i, ofRandom(12, 17), color));
         
-        Attractor::arr.push_back(Attractor(0, 0, 0, ofRandom(12, 17), color));
+        //Attractor::Attractor (float x, float y, float z, float mass, ofColor color)
+        //z value will
+        Attractor::arr.push_back(Attractor(0, 100, 200, ofRandom(12, 17), color));
         
         vector<Particle > pVec;
         Particle::arr.push_back( pVec);
