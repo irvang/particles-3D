@@ -1,6 +1,6 @@
-# L-system-generator.
+# 3D Particle system.
 
-## Using openFrameworks v. 0.9.8. 
+## Using openFrameworks v. 0.10.1. 
 
 ### Example of the program as binary file (application):
 
