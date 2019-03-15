@@ -14,4 +14,4 @@ To run the examples: extract file and double click on each example.
 
 a) Download and install openFrameworks from this page :[openFrameworks](http://openframeworks.cc/download/).
 
-b) Generate project, and use this folder as your source (you may replace src).
+b) Generate project, and use this folder as your source (replace src).
