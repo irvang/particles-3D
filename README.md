@@ -3,12 +3,6 @@
 3D adaptation of https://github.com/irvang/particles 
 ## Using openFrameworks v. 0.10.1. 
 
-### Example of the program as binary file (application):
-
-  -[Mac only (file size: 4.7MB).](http://irvingangulo.com/assets/particles-3d-bin-f/particles-3d-bin-f/particles-3D-031119.zip)
-
-To run the examples: extract file and double click on each example.
-
 
 ### To run source code: 
 
